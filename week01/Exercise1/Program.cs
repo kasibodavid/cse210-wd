@@ -4,14 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
         
-        Console.Write("Enter your name: ");
-        string name = Console.ReadLine();
+        Console.Write("Enter your First name: ");
+        string first_name = Console.ReadLine();
 
-        Console.Write("Enter your age: ");
-        int age = int.Parse(Console.ReadLine());
+        Console.Write("Enter your Last name: ");
+        string last_name = Console.ReadLine();
 
-        Console.WriteLine($"Hello, {name}! You are {age} years old.");
+        Console.WriteLine($"Your name is {last_name},{first_name} {last_name}");
     }
 }
